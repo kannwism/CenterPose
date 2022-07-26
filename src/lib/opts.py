@@ -36,7 +36,7 @@ class opts(object):
                                       'or "webcam"')
         self.parser.add_argument('--show_axes', action='store_true',
                                  help='Whether to show axes in demo mode (which will requrire the OpenCV way return)')
-        self.parser.add_argument('--demo_save', default='../demo/',
+        self.parser.add_argument('--demo_save', default='demo/',
                                  help='path to save the results')
         self.parser.add_argument('--load_model', default='',
                                  help='path to pretrained model')
