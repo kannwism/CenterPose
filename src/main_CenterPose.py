@@ -123,7 +123,7 @@ if __name__ == '__main__':
     opt = opt.parser.parse_args()
 
     # Local configuration
-    opt.c = 'bike'
+    opt.c = 'laptop'
     opt.arch='dlav1_34'
     opt.obj_scale = True
     opt.obj_scale_weight = 1
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     opt.num_epochs = 140
     opt.val_intervals = 5
     opt.lr_step = '90,120'
-    opt.batch_size = 16
+    opt.batch_size = 8
     opt.lr = 6e-5
     opt.gpus = '0'
     opt.num_workers = 4
